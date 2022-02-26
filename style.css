@@ -74,13 +74,13 @@ nav ul li {
 
 #myProgressBar {
   width: 80vw;
+  cursor: pointer;
 }
 
 .songItem {
   height: 50px;
   display: flex;
   background-color: white;
-  width: 80%;
   color: black;
   margin: 12px 0;
   justify-content: space-between;
@@ -96,4 +96,19 @@ nav ul li {
 
 .timestamp {
   margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.song-info {
+  position: absolute;
+  left: 10vh;
+  font-family: "Varela Round";
+}
+
+.song-info img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
 }
